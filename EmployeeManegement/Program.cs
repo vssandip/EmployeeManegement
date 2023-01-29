@@ -7,10 +7,11 @@ namespace EmployeeManegement
         static void Main(string[] args)
         {
             Console.WriteLine("##### WELCOME TO EMPLOYEE MANEGEMENT #####");
-           //EmpolyeeAttendance.attendance();
-          //  EmployeeWage.empAttandance();
-           // PartTimeEmpWage.partTimeWage();
-            EmployeeWageSwitchCase.employeeWageSwitchCase();
+            //EmpolyeeAttendance.attendance();
+            //  EmployeeWage.empAttandance();
+            // PartTimeEmpWage.partTimeWage();
+            // EmployeeWageSwitchCase.employeeWageSwitchCase();
+            CalculatingWageForMonth.calculatingWageForMonth();
         }
     }
 }
