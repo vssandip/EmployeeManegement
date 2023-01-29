@@ -14,8 +14,12 @@ namespace EmployeeManegement
             // CalculatingWageForMonth.calculatingWageForMonth();
             //ageWorkingDaysAndWorkingHour.wageWorkingDaysAndWorkingHour();
             // ComputeEmployeeWageUsingClassMethods.computeEmployeeWageUsingClassMethods();
-            ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("DMart", 20, 2, 10);
-            ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("Relince", 10, 4, 20);
+           // ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("DMart", 20, 2, 10);
+           // ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("Relince", 10, 4, 20);
+            EmployeeTotalWageEachCompany DMart = new EmployeeTotalWageEachCompany("DMart", 20, 2, 10);
+            EmployeeTotalWageEachCompany Reliance = new EmployeeTotalWageEachCompany("Reliance", 30, 2, 20);
+            DMart.check();
+            Reliance.check(); 
 
         }
     }
