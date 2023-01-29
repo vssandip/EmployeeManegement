@@ -9,7 +9,8 @@ namespace EmployeeManegement
             Console.WriteLine("##### WELCOME TO EMPLOYEE MANEGEMENT #####");
            //EmpolyeeAttendance.attendance();
           //  EmployeeWage.empAttandance();
-            PartTimeEmpWage.partTimeWage();
+           // PartTimeEmpWage.partTimeWage();
+            EmployeeWageSwitchCase.employeeWageSwitchCase();
         }
     }
 }
