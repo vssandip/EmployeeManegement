@@ -7,7 +7,8 @@ namespace EmployeeManegement
         static void Main(string[] args)
         {
             Console.WriteLine("##### WELCOME TO EMPLOYEE MANEGEMENT #####");
-            EmpolyeeAttendance.attendance();
+           //EmpolyeeAttendance.attendance();
+            EmployeeWage.empAttandance();
         }
     }
 }
