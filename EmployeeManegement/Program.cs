@@ -11,8 +11,9 @@ namespace EmployeeManegement
             //  EmployeeWage.empAttandance();
             // PartTimeEmpWage.partTimeWage();
             // EmployeeWageSwitchCase.employeeWageSwitchCase();
-           // CalculatingWageForMonth.calculatingWageForMonth();
-            WageWorkingDaysAndWorkingHour.wageWorkingDaysAndWorkingHour();
+            // CalculatingWageForMonth.calculatingWageForMonth();
+            //ageWorkingDaysAndWorkingHour.wageWorkingDaysAndWorkingHour();
+            ComputeEmployeeWageUsingClassMethods.computeEmployeeWageUsingClassMethods();
         }
     }
 }
