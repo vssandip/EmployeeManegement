@@ -13,7 +13,10 @@ namespace EmployeeManegement
             // EmployeeWageSwitchCase.employeeWageSwitchCase();
             // CalculatingWageForMonth.calculatingWageForMonth();
             //ageWorkingDaysAndWorkingHour.wageWorkingDaysAndWorkingHour();
-            ComputeEmployeeWageUsingClassMethods.computeEmployeeWageUsingClassMethods();
+            // ComputeEmployeeWageUsingClassMethods.computeEmployeeWageUsingClassMethods();
+            ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("DMart", 20, 2, 10);
+            ComputeEmployeeWageforMultipleCompany.computeEmployeeWageforMultipleCompany("Relince", 10, 4, 20);
+
         }
     }
 }
